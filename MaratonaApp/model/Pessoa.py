@@ -10,3 +10,6 @@ class Pessoa():
 
     def pagar(self):
         print('Pagando genericamente')
+        
+    def __str__(self):
+        return('Nome do objeto pessoa: %s') % self.nome
